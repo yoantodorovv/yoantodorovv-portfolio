@@ -1,0 +1,23 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1.5em 5em;
+}
+
+.switch-language-text {
+    font-size: 1.5em;
+    color: var(--white-primary-color);
+}
+
+.nav-bar {
+    display: flex;
+    min-width: 50%;
+    justify-content: space-between;
+}
+
+.nav-bar-buttons {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: var(--white-primary-color);
+}

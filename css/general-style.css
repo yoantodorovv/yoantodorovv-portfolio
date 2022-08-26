@@ -1,0 +1,42 @@
+:root {
+    --black-primary-color: #1E2022;
+    --white-primary-color: #F0F5F9;
+    --white-secondary-color: #C9D6DF;
+    --accent-primary-color: #52616B;
+    --accent-secondary-color: #97A0A6;
+}
+
+/* TODO: Reformatting the file! And doing sufficient corrections */
+
+/* General */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans;
+}
+
+body {
+    background-color: var(--black-primary-color);
+    width: 100%;
+}
+
+.main-content-wrapper {
+    margin: 0 10em;
+}
+
+.accent-words {
+    color: var(--accent-primary-color);
+}
+
+.about-content-wrapper {
+    background-color: var(--accent-secondary-color);
+    height: 60vh;
+}
+
+.education-content-wrapper,
+.skills-content-wrapper,
+.workflow-content-wrapper {
+    margin: 0 10em;
+}
