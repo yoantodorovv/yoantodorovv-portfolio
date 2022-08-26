@@ -68,7 +68,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 30em;
-    height: 45em;
+    height: 90%;
     background-color: var(--accent-secondary-color);
     border: .5px solid var(--white-primary-color);
     border-radius: 5em;
