@@ -24,17 +24,68 @@ body {
     margin: 0 10em;
 }
 
-.about-content-wrapper {
-    background-color: var(--accent-secondary-color);
-    height: 50vh;
+.accent-words {
+    color: var(--accent-primary-color);
 }
 
-.education-content-wrapper {
+.about-content-wrapper {
+    background-color: var(--accent-secondary-color);
+    height: 60vh;
+}
+
+.education-content-wrapper,
+.skills-content-wrapper {
     margin: 0 10em;
 }
 
-.accent-words {
-    color: var(--accent-primary-color);
+/* Skills */
+
+.skills-content {
+    height: 100vh;
+}
+
+.skills-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    height: 15%;
+}
+
+.skills-header-title {
+    font-size: 3em;
+    color: var(--white-primary-color);
+}
+
+.skills-main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85%;
+}
+
+.skills-main-card {
+    display: flex;
+    flex-direction: column;
+    width: 30em;
+    height: 45em;
+    background-color: var(--accent-secondary-color);
+    border: .5px solid var(--white-primary-color);
+    border-radius: 5em;
+}
+
+.skills-card-title-wrapper {
+    height: 25%;
+}
+
+.skills-card-split-line {
+    align-self: center;
+    opacity: 50%;
+    width: 60%;
+}
+
+.skills-card-content-wrapper {
+    height: 75%;
 }
 
 /* Education */
@@ -99,7 +150,7 @@ body {
 .about-content {
     display: flex;
     margin: 0 10em;
-    height: 50vh;
+    height: 60vh;
 }
 
 .about-text-content {
