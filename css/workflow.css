@@ -56,7 +56,8 @@
 .workflow-card-icon {
     position: relative;
     bottom: 15%;
-    left: 41%;
+    left: 50%;
+    transform: translateX(-50%);
     width: 20%;
     height: 20%;
     background-color: var(--accent-primary-color);
