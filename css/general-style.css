@@ -38,6 +38,7 @@ body {
 .education-content-wrapper,
 .skills-content-wrapper,
 .workflow-content-wrapper,
-.contact-content-wrapper {
+.contact-content-wrapper,
+.footer-content {
     margin: 0 10em;
 }

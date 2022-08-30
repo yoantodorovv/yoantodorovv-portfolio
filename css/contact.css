@@ -88,6 +88,14 @@
     color: var(--white-primary-color);
 }
 
+.form-full-name-container .label,
+.form-email-container .label,
+.form-phone-container .label,
+.form-service-details .label {
+    position: relative;
+    top: 50%;
+}
+
 .radio-label {
     margin-left: .5em;
     padding: 0.5em 1em;

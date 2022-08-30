@@ -24,8 +24,17 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-flow: row wrap;
+    flex-flow: column nowrap;
     height: 85%;
+}
+
+.workflow-main-firstrow-wrapper,
+.workflow-main-secondrow-wrapper {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .workflow-card-wrapper {
