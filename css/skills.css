@@ -17,7 +17,7 @@
 
 .skills-main-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 85%;
 }
@@ -25,11 +25,11 @@
 .skills-main-card {
     display: flex;
     flex-direction: column;
-    width: 30em;
-    height: 90%;
+    width: 20em;
+    height: 70%;
     background-color: var(--accent-secondary-color);
     border: .5px solid var(--white-primary-color);
-    border-radius: 5em;
+    border-radius: 2em;
 }
 
 .skills-card-title-wrapper {
