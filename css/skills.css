@@ -27,7 +27,7 @@
     flex-direction: column;
     width: 20em;
     height: 70%;
-    background-color: var(--accent-secondary-color);
+    background-color: var(--white-primary-color);
     border: .5px solid var(--white-primary-color);
     border-radius: 2em;
 }

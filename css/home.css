@@ -18,7 +18,7 @@
 }
 
 .home-subtitle {
-    font-size: 3em;
+    font-size: 2.6em;
 }
 
 .home-title {
@@ -31,9 +31,9 @@
 }
 
 .home-contact-button {
-    font-size: 2em;
+    font-size: 1.5em;
     text-decoration: none;
-    color: var(--white-primary-color);
+    color: var(--black-primary-color);
     background-color: var(--accent-primary-color);
     border-radius: 2em;
     margin-top: .3em;

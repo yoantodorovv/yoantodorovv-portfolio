@@ -1,9 +1,9 @@
 :root {
     --black-primary-color: #1E2022;
+    --black-secondary-color: #1A1A1A;
     --white-primary-color: #F0F5F9;
-    --white-secondary-color: #C9D6DF;
-    --accent-primary-color: #52616B;
-    --accent-secondary-color: #97A0A6;
+    --accent-primary-color: #FFBF00;
+    --accent-secondary-color: #FFD966;
 }
 
 /* TODO: Reformatting the file! And doing sufficient corrections */
@@ -18,8 +18,7 @@
 }
 
 body {
-    background: rgb(30,32,34);
-    background: linear-gradient(90deg, rgba(30,32,34,1) 29%, rgba(60,60,61,1) 69%);
+    background: var(--black-primary-color);
     width: 100%;
 }
 
@@ -32,7 +31,7 @@ body {
 }
 
 .about-content-wrapper {
-    background-color: var(--accent-secondary-color);
+    background-color: var(--black-secondary-color);
     height: 60vh;
 }
 
@@ -41,5 +40,5 @@ body {
 .workflow-content-wrapper,
 .contact-content-wrapper,
 .footer-content {
-    margin: 0 10em;
+    padding: 0 10em;
 }

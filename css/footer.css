@@ -1,7 +1,7 @@
 .footer-content-wrapper {
     height: 40vh;
     margin-right: 10em;
-    background-color: var(--accent-secondary-color);
+    background-color: var(--black-secondary-color);
     border-top-right-radius: 3em;
 }
 
@@ -22,17 +22,17 @@
 
 .footer-info-header-subtitle {
     font-size: 2em;
-    color: var(--black-primary-color);
+    color: var(--white-primary-color);
 }
 
 .footer-info-header-title {
     font-size: 3em;
-    color: var(--black-primary-color);
+    color: var(--white-primary-color);
 }
 
 .footer-info-main {
     font-size: 1.5em;
-    color: var(--black-primary-color);
+    color: var(--white-primary-color);
     width: 50%;
 }
 
