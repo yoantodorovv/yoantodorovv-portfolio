@@ -35,6 +35,10 @@ body {
     height: 60vh;
 }
 
+.skills-content-wrapper {
+    background: linear-gradient(0deg, var(--black-secondary-color) 35%, var(--black-primary-color) 0%);
+}
+
 .education-content-wrapper,
 .skills-content-wrapper,
 .workflow-content-wrapper,
