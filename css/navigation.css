@@ -21,3 +21,8 @@
     text-decoration: none;
     color: var(--white-primary-color);
 }
+
+.nav-bar-buttons:hover {
+    color: var(--accent-primary-color);
+    transition: ease-in .2s;
+}
