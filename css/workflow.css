@@ -1,5 +1,6 @@
 .workflow-content-wrapper {
     background-color: var(--black-secondary-color);
+    position: relative;
 }
 
 .workflow-content {
@@ -9,7 +10,7 @@
 .workflow-header {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: flex-start;
     height: 15%;
 }
@@ -76,4 +77,56 @@
     background-color: var(--accent-primary-color);
     border: .5px solid var(--black-primary-color);
     border-radius: 50%;
+}
+
+.workflow-arrow-one,
+.workflow-arrow-two,
+.workflow-arrow-three,
+.workflow-arrow-four {
+    position: absolute;
+}
+
+.workflow-arrow-one {
+    top: 35%;
+}
+
+.workflow-arrow-two {
+    top: 36.3%;
+    right: 0%;
+}
+
+.workflow-arrow-three {
+    top: 78%;
+    left: .5%;
+}
+
+.workflow-arrow-four {
+    top: 78%;
+}
+
+.workflow-discussion-icon,
+.workflow-design-icon,
+.workflow-prototype-icon,
+.workflow-product-icon {
+    position: absolute;
+}
+
+.workflow-discussion-icon {
+    top: 47%;
+    left: 27%;
+}
+
+.workflow-design-icon {
+    top: 47%;
+    right: 26.5%;
+}
+
+.workflow-prototype-icon {
+    top: 89%;
+    left: 27%;
+}
+
+.workflow-product-icon {
+    top: 89%;
+    right: 26.5%;
 }

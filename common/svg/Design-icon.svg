@@ -1,0 +1,6 @@
+<svg class="workflow-design-icon" width="90" height="90" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="45" cy="45" r="44" fill="#FFBF00" stroke="black" stroke-width="2"/>
+<path d="M45 15.8335C28.8913 15.8335 15.8334 28.8914 15.8334 45.0002C15.8334 61.1089 28.8913 74.1668 45 74.1668C61.1088 74.1668 74.1667 61.1089 74.1667 45.0002C74.1667 28.8914 61.1088 15.8335 45 15.8335Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M33.3334 71.7403V50.8337L45 30.417L56.6667 50.8337V71.7403" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M33.3334 50.8335C33.3334 50.8335 36.6205 53.7502 39.1667 53.7502C41.713 53.7502 45 50.8335 45 50.8335C45 50.8335 48.2871 53.7502 50.8334 53.7502C53.3796 53.7502 56.6667 50.8335 56.6667 50.8335" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
