@@ -29,7 +29,7 @@ nav.addEventListener("mouseover", function() {
 
 nav.addEventListener("mouseout", function() {
     nav.classList.remove("sticky");
-    nav.classList.toggle("hidden");
+    nav.classList.toggle("hidden", window.scrollY > 0);
     
     bool = true;
 });
