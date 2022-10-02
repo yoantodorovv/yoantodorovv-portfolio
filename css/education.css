@@ -46,11 +46,16 @@
     height: 15%;
 }
 
-.education-button{
+.education-button {
     height: fit-content;
     margin: .5em 1em;
     padding: .5em 1em;
     font-size: 1.5em;
     color: var(--white-primary-color);
     text-decoration: none;
+}
+
+.education-button:hover {
+    color: var(--accent-primary-color);
+    transition: ease-in .2s;
 }
