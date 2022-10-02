@@ -29,7 +29,6 @@
     width: 20em;
     height: 70%;
     background-color: var(--white-primary-color);
-    border: .5px solid var(--white-primary-color);
     border-radius: 2em;
 }
 
@@ -53,5 +52,27 @@
 }
 
 .skills-card-content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
     height: 75%;
+}
+
+.skills-card {
+    width: 100%;
+    height: fit-content;
+    padding: 1em;
+    background-color: var(--black-secondary-color);
+    opacity: .7;
+    text-align: center;
+}
+
+.skills-card:hover {
+    opacity: .9;
+}
+
+.skills-card-content-text {
+    font-size: 1.2em;
+    color: var(--white-primary-color);
 }
