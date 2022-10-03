@@ -17,7 +17,7 @@ window.addEventListener('scroll', function(e) {
         }
 
         bool = true;
-    }, 1000);
+    }, 500);
 }, false);
 
 nav.addEventListener("mouseover", function() {
