@@ -36,6 +36,7 @@
     background-color: var(--white-primary-color);
     border: 1px solid var(--white-primary-color);
     border-radius: 7%;
+    position: relative;
 }
 
 .contact-info-header {
@@ -157,4 +158,11 @@
     background-color: var(--accent-primary-color);
     transition: ease-in .2s;
     cursor: pointer;
+}
+
+.contact-svg {
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translateX(-50%);
 }
