@@ -107,7 +107,7 @@
     padding: 0.5em 0.5em 0em 0em;
     border: none;
     border-bottom: 1px solid var(--white-primary-color);
-    background: none;
+    background-color: var(--black-primary-color);
     outline: none;
     font-size: 1.5em;
     color: var(--white-primary-color);
@@ -165,4 +165,17 @@
     bottom: 15%;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.service-type .radio-label:hover {
+    color: var(--accent-primary-color);
+    border: 1px solid var(--accent-primary-color);
+}
+
+.form-butn:hover .label {
+    color: var(--accent-primary-color);
+}
+
+.form-butn:hover .input {
+    border-bottom: 1px solid var(--accent-primary-color);
 }
