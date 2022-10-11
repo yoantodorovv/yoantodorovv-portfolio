@@ -50,5 +50,14 @@ Array.from(radioButtons).forEach(x => {
     });
 });
 
-let formBtn = document.querySelector('.form-butn');
+let formInputs = document.querySelectorAll('.input');
 
+Array.from(formInputs).forEach(x => {
+    x.addEventListener('focus', () => {
+        x.parentElement.classList.add('form-btn-click');
+    });
+
+    x.addEventListener('focusout', () => {
+        x.parentElement.classList.remove('form-btn-click');
+    });
+});

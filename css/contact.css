@@ -185,6 +185,10 @@
     border: 1px solid var(--accent-primary-color)
 }
 
-.form-btn-click {
+.form-btn-click .input {
     border-bottom: 1px solid var(--accent-primary-color);
+}
+
+.form-btn-click .label {
+    color: var(--accent-primary-color);
 }
