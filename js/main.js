@@ -1,3 +1,5 @@
+//Sticky nav
+
 let nav = document.querySelector(".nav");
 
 var timer = null;
@@ -33,3 +35,20 @@ nav.addEventListener("mouseout", function() {
     
     bool = true;
 });
+
+// Contact Buttons
+
+var radioButtons = document.querySelectorAll('input.radio');
+
+Array.from(radioButtons).forEach(x => {
+    x.addEventListener('change', () => {
+        Array.from(radioButtons).forEach(x => x.parentElement.classList.remove('form-service-click'));
+
+        if (x.checked) {
+            x.parentElement.classList.add('form-service-click');
+        }
+    });
+});
+
+let formBtn = document.querySelector('.form-butn');
+
