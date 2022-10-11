@@ -61,3 +61,5 @@ Array.from(formInputs).forEach(x => {
         x.parentElement.classList.remove('form-btn-click');
     });
 });
+
+//URL manipulation
